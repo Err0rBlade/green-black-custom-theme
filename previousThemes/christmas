@@ -309,10 +309,12 @@
 			"punctuation.separator.comma.js",
 			"punctuation.definition.string.begin.js",
 			"punctuation.definition.string.end.js",
-			"punctuation.definition.binding-pattern.object.js"
+			"punctuation.definition.binding-pattern.object.js",
+			"punctuation.definition.string.begin.html",
+			"punctuation.definition.string.end.html"
 		  ],
 		  "settings": {
-			"foreground": "#0F0A0A"
+			"foreground": "#A7A8AF"
 		  }
 		},
 		{
@@ -335,14 +337,17 @@
 		{
 		  "scope": [
 			"comment.line.scss",
+			"comment.line.css",
 			"comment.line.double-slash.js",
 			"punctuation.definition.comment.scss",
+			"punctuation.definition.comment.css",
 			"punctuation.definition.comment.js",
 			"punctuation.definition.comment.html",
-			"comment.block.html"
+			"comment.block.html",
+			"comment.block.css"
 		  ],
 		  "settings": {
-			"foreground": "#6D6F7C"
+			"foreground": "#6d6f7c9f"
 		  }
 		},
 		{
@@ -368,6 +373,7 @@
 			"entity.name.tag.html"
 		  ],
 		  "settings": {
+			"foreground": "#004946",
 			"fontStyle": "bold"
 		  }
 		},
@@ -418,15 +424,15 @@
 			"foreground": "#67c200"
 		  }
 		},
-		{
-		  "scope": [
-			"punctuation.definition.string.begin.html",
-			"punctuation.definition.string.end.html"
-		  ],
-		  "settings": {
-			"foreground": "#DEFFD6"
-		  }
-		},
+		// {
+		//   "scope": [
+		// 	"punctuation.definition.string.begin.html",
+		// 	"punctuation.definition.string.end.html"
+		//   ],
+		//   "settings": {
+		// 	"foreground": "#041400"
+		//   }
+		// },
 		{
 		  "scope": [
 			"support.other.variable",
@@ -448,7 +454,7 @@
 			"punctuation.separator.key-value.html"
 		  ],
 		  "settings": {
-			"foreground": "#FF2D2D"
+			"foreground": "#0F0A0A"
 		  }
 		},
 		{
@@ -490,7 +496,9 @@
 			"entity.other.attribute-name.html"
 		  ],
 		  "settings": {
-			"foreground": "#2292A4"
+			// "foreground": "#2292A4",
+			"foreground": "#004946",
+			"fontStyle": "bold"
 		  }
 		},
 		{
@@ -553,14 +561,21 @@
 			"keyword.control.conditional.js",
 			"support.constant",
 			"entity.other.attribute-name.html",
-			"string.quoted.single.js",
 			"storage.type.function.js",
 			"meta.object-literal.key"
 		  ],
 		  "settings": {
-			"foreground": "#0F0A0A"
+			"foreground": "#FF2D2D"
 		  }
 		},
+		{
+			"scope": [
+			  "string.quoted.single.js",
+			],
+			"settings": {
+			  "foreground": "#67c200"
+			}
+		  },
 		{
 		  "scope": [
 			"source.scss keyword.control"
