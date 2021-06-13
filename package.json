@@ -1,0 +1,21 @@
+{
+    "name": "demo-theme",
+    "displayName": "demo-theme",
+    "description": "demo theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "-Akki-",
+                "uiTheme": "vs",
+                "path": "./themes/abc.json"
+            }
+        ]
+    }
+}
