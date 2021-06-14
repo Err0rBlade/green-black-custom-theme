@@ -226,7 +226,7 @@
 			"punctuation.definition.interpolation.begin.bracket.curly.scss"
 		  ],
 		  "settings": {
-			"fontStyle": "italic"
+			// "fontStyle": "italic"
 		  }
 		},
 		{
@@ -269,7 +269,7 @@
 			"Storage"
 		  ],
 		  "settings": {
-			"fontStyle": "italic"
+			// "fontStyle": "italic"
 		  }
 		},
 		{
@@ -286,7 +286,7 @@
 			"entity.name.tag.reference.scss"
 		  ],
 		  "settings": {
-			"foreground": "#45837e"
+			"foreground": "#2292A4"
 		  }
 		},
 		{
@@ -479,8 +479,8 @@
 			"string.unquoted.label.js"
 		  ],
 		  "settings": {
-			"foreground": "#4A6F39",
-			"fontStyle": ""
+			"foreground": "#004946",
+			"fontStyle": "bold"
 		  }
 		},
 		{
@@ -640,7 +640,7 @@
 		  ],
 		  "settings": {
 			"foreground": "#0F0A0A",
-			"fontStyle": "italic"
+			// "fontStyle": "italic"
 		  }
 		},
 		{
@@ -725,7 +725,7 @@
 			"markup.quote"
 		  ],
 		  "settings": {
-			"fontStyle": "italic"
+			// "fontStyle": "italic"
 		  }
 		},
 		{
